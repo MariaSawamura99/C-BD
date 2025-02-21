@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main (){
+	
+	int num;
+
+	//Entrada
+	printf("Digite um numero: \n");
+	scanf("%i", &num);
+	
+	//Condições if para verificar o número
+	if (num>0){
+		printf("O numero e positivo.\n");
+	
+	} else if (num<0){
+		printf("O numero e negativo.\n");
+		
+	} else {
+		printf ("O numero e zero.\n");
+	}
+return 0;	
+
+system("pause");
+
+}
